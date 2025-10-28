@@ -43,6 +43,12 @@ print("Length of declaration of independence:", len(declaration_of_independence)
 
 # # ----------------------------------------
 chicago_mayor = "Johnson"
+#index slicing
+print(chicago_mayor[0:4]) #Get John
+print(chicago_mayor[4: ]) #Get Son
+print(chicago_mayor[2:6]) #hnso
+print(chicago_mayor[0:5])
+
 print(len(chicago_mayor))
 print(chicago_mayor[0])
 print(chicago_mayor[4])
