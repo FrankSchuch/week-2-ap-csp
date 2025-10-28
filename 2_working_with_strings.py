@@ -42,6 +42,11 @@ declaration_of_independence = "The Declaration of Independence is the 1776 docum
 print("Length of declaration of independence:", len(declaration_of_independence)) #Output: 338
 
 # # ----------------------------------------
+chicago_mayor = "Johnson"
+print(len(chicago_mayor))
+print(chicago_mayor[0])
+print(chicago_mayor[4])
+print(chicago_mayor[-1])
 # # 3. Indexing and Slicing
 # # ----------------------------------------
 
