@@ -37,7 +37,9 @@ print("Is name uppercase?", name.isupper())
 #capitalization
 print("name", name.capitalize())
 # # Find the length of the string
-# print("Length of phrase:", len(phrase))  # Output: 14
+print("Length of phrase:", len(phrase))  # Output: 14
+declaration_of_independence = "The Declaration of Independence is the 1776 document that announced the 13 American colonies' separation from Great Britain, asserting they were free and independent states. Written primarily by Thomas Jefferson, it states that all individuals are created equal and have unalienable rights to life, liberty, and the pursuit of happiness. "
+print("Length of declaration of independence:", len(declaration_of_independence)) #Output: 338
 
 # # ----------------------------------------
 # # 3. Indexing and Slicing
