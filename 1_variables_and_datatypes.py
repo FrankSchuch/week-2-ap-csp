@@ -30,16 +30,16 @@ name = "John"
 print("Name:", name)
 
 # # 2. Numbers: Numeric data (integers or floats)
-# age = 23
+age = 23
 # print("Age:", age)
 
 # # 3. Booleans: True or False values
-# hungry = False
+hungry = False
 # print("Hungry:", hungry)
 
 
 # # Example combining them all:
-# print(f"{name} is {age} years old. Hungry? {hungry}")
+print(f"{name} is {age} years old. Hungry? {hungry}")
 
 
 # # ----------------------------------------
