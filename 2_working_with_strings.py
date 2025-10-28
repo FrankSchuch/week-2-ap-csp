@@ -32,8 +32,10 @@ print("Uppercasename:", name.upper())
 print("Lowercasename:", name.lower())
 
 # # Check if all characters are uppercase
-# print("Is Uppercase?", phrase.isupper())  # Output: False
-
+print("Is Uppercase?", phrase.isupper())  # Output: False
+print("Is name uppercase?", name.isupper())
+#capitalization
+print("name", name.capitalize())
 # # Find the length of the string
 # print("Length of phrase:", len(phrase))  # Output: 14
 
