@@ -19,6 +19,10 @@ print(500 + 55)
 
 ##############################################################################################################
 # Find 3 objects around the room and create variables from it,
+computer_on = False
+sign = "Algorithms"
+QR_codes = 14
+print(f"")
 # Insert those variables into an f-string sentence(look at slide 22)in repl.it
 
 
