@@ -102,3 +102,10 @@ print("Uppercase:", phrase3.upper())
 # # You can also use f-strings (Python 3.6+)
 # intro_fstring = f"My name is {name} and I am {age} years old."
 # print(intro_fstring)
+
+#----------------------------------------------------------
+
+words = sentence.split()
+print("Split result:", )
+
+
