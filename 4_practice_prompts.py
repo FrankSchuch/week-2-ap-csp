@@ -28,18 +28,30 @@ print(f"")
 
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
+name1 = "Anthony" 
+print(f"my name:", name1)
 # Print today's date.
+date1 = "10/30/25"
+print(f"Today's date:", date1)
 # Print the name of your favorite movie.
-
+print("My favorite movie: Spider-Man: Into the Spider-Verse")
 # Print your name and age on separate lines using a single print() function.
-# Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
+print("""my name is Frank. 
+      I am 15 years old""")
 
+# Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
+age = 16
+num2= 10
+sum_result = age + num2
+print(f"In 10 years, {name1} will be {sum_result} years old. ")
 ##############################################################################################################
 
 ###########################String Practice##################################
 #syntax is the way we write code
 # print("Hello World")
+print("Hello World.")
 # name = "John"
+name = "John"
 #in other languages, this is different
 # in javascript for example, you define
 #variables with let or const or var
@@ -50,14 +62,20 @@ print(f"")
 #challenge
 # find a summary of the movie blue beetle online and create a 
 # variable called blue_beetle_summary and print it it out to the screen
-
+blue_beetle_summary = "Jaime Reyes suddenly finds himself in possession of an ancient relic of alien biotechnology called the Scarab . When the Scarab chooses Jaime to be its symbiotic host, he's bestowed with an incredible suit of armor that's capable of extraordinary and unpredictable powers, forever changing his destiny as he becomes the superhero Blue Beetle."
+print(f"this is the blue beetle summary: {blue_beetle_summary} " )
 # print the length of the summary
+print("Lenght of blue beetle summary: ", len(blue_beetle_summary))
 # upper case the entire summary
+print(blue_beetle_summary.upper())
 # print the summary
+print(blue_beetle_summary)
 # print the summary in lowercase
-# replace the word blue with red
+print(blue_beetle_summary.lower())
+# replace the word blue with red 
 # print the summary
-# string index the word beetle and print it out
+# string index the word beetle and print it out 
+print(blue_beetle_summary[320-342])
 # print the last word of the summary
 # print the summary in reverse
 
